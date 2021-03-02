@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SEDogWalkCoreData::SEDogWalkCoreDataPackageTests::ProductTarget" /* SEDogWalkCoreDataPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_57 /* Build configuration list for PBXAggregateTarget "SEDogWalkCoreDataPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_60 /* PBXTargetDependency */,
+			);
+			name = SEDogWalkCoreDataPackageTests;
+			productName = SEDogWalkCoreDataPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4C4DDD3725DE9C0F001D7E13 /* DogWalk.mom in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C4DDD3525DE9BFD001D7E13 /* DogWalk.mom */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4CB5A1BE25DC91E6008B324C /* DogWalkModelLoaderXcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5A1BD25DC91E6008B324C /* DogWalkModelLoaderXcode.swift */; };
+		OBJ_39 /* DogWalkCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DogWalkCoreData.swift */; };
+		OBJ_40 /* DogWalkCoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* DogWalkCoreDataStore.swift */; };
+		OBJ_42 /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Dog+CoreDataClass.swift */; };
+		OBJ_43 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Dog+CoreDataProperties.swift */; };
+		OBJ_44 /* Walk+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Walk+CoreDataClass.swift */; };
+		OBJ_45 /* Walk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Walk+CoreDataProperties.swift */; };
+		OBJ_47 /* SEPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SEPlatform::SEPlatform::Product" /* SEPlatform.framework */; };
+		OBJ_55 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_66 /* DogWalkCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* DogWalkCoreDataTests.swift */; };
+		OBJ_67 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* XCTestManifests.swift */; };
+		OBJ_69 /* SEDogWalkCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SEDogWalkCoreData::SEDogWalkCoreData::Product" /* SEDogWalkCoreData.framework */; };
+		OBJ_70 /* SEPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SEPlatform::SEPlatform::Product" /* SEPlatform.framework */; };
+		OBJ_77 /* FatalErrorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* FatalErrorUtils.swift */; };
+		OBJ_78 /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Result+Extensions.swift */; };
+		OBJ_79 /* SinglePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* SinglePublisher.swift */; };
+		OBJ_86 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB5A19425DC918D008B324C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SEPlatform::SEPlatform";
+			remoteInfo = SEPlatform;
+		};
+		4CB5A1A125DC918D008B324C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SEDogWalkCoreData::SEDogWalkCoreData";
+			remoteInfo = SEDogWalkCoreData;
+		};
+		4CB5A1A225DC918D008B324C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SEPlatform::SEPlatform";
+			remoteInfo = SEPlatform;
+		};
+		4CB5A1A925DC918D008B324C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SEDogWalkCoreData::SEDogWalkCoreDataTests";
+			remoteInfo = SEDogWalkCoreDataTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C4DDD3325DE9B99001D7E13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = DogWalk.momd;
+			dstSubfolderSpec = 7;
+			files = (
+				4C4DDD3725DE9C0F001D7E13 /* DogWalk.mom in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C4DDD3525DE9BFD001D7E13 /* DogWalk.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DogWalk.mom; sourceTree = "<group>"; };
+		4C4DDD3625DE9BFD001D7E13 /* VersionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = VersionInfo.plist; sourceTree = "<group>"; };
+		4CB5A1BD25DC91E6008B324C /* DogWalkModelLoaderXcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogWalkModelLoaderXcode.swift; sourceTree = "<group>"; };
+		OBJ_10 /* DogWalkCoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWalkCoreDataStore.swift; sourceTree = "<group>"; };
+		OBJ_11 /* DogWalkModelLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWalkModelLoader.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		OBJ_15 /* Walk+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataClass.swift"; sourceTree = "<group>"; };
+		OBJ_16 /* Walk+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Walk+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* DogWalkCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWalkCoreDataTests.swift; sourceTree = "<group>"; };
+		OBJ_20 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_24 /* FatalErrorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalErrorUtils.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_26 /* SinglePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePublisher.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/partyman21/Dev/Playground/CoreData_Chapter3/DogWalkCoreData/.build/checkouts/SEPlatform/Package.swift; sourceTree = "<group>"; };
+		OBJ_33 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* DogWalkCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWalkCoreData.swift; sourceTree = "<group>"; };
+		"SEDogWalkCoreData::SEDogWalkCoreData::Product" /* SEDogWalkCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SEDogWalkCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SEDogWalkCoreData::SEDogWalkCoreDataTests::Product" /* SEDogWalkCoreDataTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SEDogWalkCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SEPlatform::SEPlatform::Product" /* SEPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SEPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_47 /* SEPlatform.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_69 /* SEDogWalkCoreData.framework in Frameworks */,
+				OBJ_70 /* SEPlatform.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4DDD3425DE9BFD001D7E13 /* DogWalk.momd */ = {
+			isa = PBXGroup;
+			children = (
+				4C4DDD3525DE9BFD001D7E13 /* DogWalk.mom */,
+				4C4DDD3625DE9BFD001D7E13 /* VersionInfo.plist */,
+			);
+			path = DogWalk.momd;
+			sourceTree = "<group>";
+		};
+		OBJ_12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* Dog+CoreDataClass.swift */,
+				OBJ_14 /* Dog+CoreDataProperties.swift */,
+				OBJ_15 /* Walk+CoreDataClass.swift */,
+				OBJ_16 /* Walk+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* SEDogWalkCoreDataTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* SEDogWalkCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* DogWalkCoreDataTests.swift */,
+				OBJ_20 /* XCTestManifests.swift */,
+			);
+			name = SEDogWalkCoreDataTests;
+			path = Tests/SEDogWalkCoreDataTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_21 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* SEPlatform */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* SEPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* SEPlatform */,
+				OBJ_27 /* SEPlatformTests */,
+				OBJ_28 /* Package.swift */,
+			);
+			name = SEPlatform;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* SEPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* FatalErrorUtils.swift */,
+				OBJ_25 /* Result+Extensions.swift */,
+				OBJ_26 /* SinglePublisher.swift */,
+			);
+			name = SEPlatform;
+			path = .build/checkouts/SEPlatform/Sources/SEPlatform;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_27 /* SEPlatformTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SEPlatformTests;
+			path = .build/checkouts/SEPlatform/Sources/SEPlatformTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SEDogWalkCoreData::SEDogWalkCoreData::Product" /* SEDogWalkCoreData.framework */,
+				"SEPlatform::SEPlatform::Product" /* SEPlatform.framework */,
+				"SEDogWalkCoreData::SEDogWalkCoreDataTests::Product" /* SEDogWalkCoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_17 /* Tests */,
+				OBJ_21 /* Dependencies */,
+				OBJ_29 /* Products */,
+				OBJ_33 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SEDogWalkCoreData */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SEDogWalkCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4C4DDD3425DE9BFD001D7E13 /* DogWalk.momd */,
+				4CB5A1BD25DC91E6008B324C /* DogWalkModelLoaderXcode.swift */,
+				OBJ_9 /* DogWalkCoreData.swift */,
+				OBJ_10 /* DogWalkCoreDataStore.swift */,
+				OBJ_11 /* DogWalkModelLoader.swift */,
+				OBJ_12 /* Models */,
+			);
+			name = SEDogWalkCoreData;
+			path = Sources/SEDogWalkCoreData;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SEDogWalkCoreData::SEDogWalkCoreData" /* SEDogWalkCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_35 /* Build configuration list for PBXNativeTarget "SEDogWalkCoreData" */;
+			buildPhases = (
+				OBJ_38 /* Sources */,
+				OBJ_46 /* Frameworks */,
+				4C4DDD3325DE9B99001D7E13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_48 /* PBXTargetDependency */,
+			);
+			name = SEDogWalkCoreData;
+			productName = SEDogWalkCoreData;
+			productReference = "SEDogWalkCoreData::SEDogWalkCoreData::Product" /* SEDogWalkCoreData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SEDogWalkCoreData::SEDogWalkCoreDataTests" /* SEDogWalkCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "SEDogWalkCoreDataTests" */;
+			buildPhases = (
+				OBJ_65 /* Sources */,
+				OBJ_68 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_71 /* PBXTargetDependency */,
+				OBJ_72 /* PBXTargetDependency */,
+			);
+			name = SEDogWalkCoreDataTests;
+			productName = SEDogWalkCoreDataTests;
+			productReference = "SEDogWalkCoreData::SEDogWalkCoreDataTests::Product" /* SEDogWalkCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SEDogWalkCoreData::SwiftPMPackageDescription" /* SEDogWalkCoreDataPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_51 /* Build configuration list for PBXNativeTarget "SEDogWalkCoreDataPackageDescription" */;
+			buildPhases = (
+				OBJ_54 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEDogWalkCoreDataPackageDescription;
+			productName = SEDogWalkCoreDataPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SEPlatform::SEPlatform" /* SEPlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_73 /* Build configuration list for PBXNativeTarget "SEPlatform" */;
+			buildPhases = (
+				OBJ_76 /* Sources */,
+				OBJ_80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEPlatform;
+			productName = SEPlatform;
+			productReference = "SEPlatform::SEPlatform::Product" /* SEPlatform.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SEPlatform::SwiftPMPackageDescription" /* SEPlatformPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "SEPlatformPackageDescription" */;
+			buildPhases = (
+				OBJ_85 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEPlatformPackageDescription;
+			productName = SEPlatformPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SEDogWalkCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"SEDogWalkCoreData::SEDogWalkCoreData" /* SEDogWalkCoreData */,
+				"SEDogWalkCoreData::SwiftPMPackageDescription" /* SEDogWalkCoreDataPackageDescription */,
+				"SEDogWalkCoreData::SEDogWalkCoreDataPackageTests::ProductTarget" /* SEDogWalkCoreDataPackageTests */,
+				"SEDogWalkCoreData::SEDogWalkCoreDataTests" /* SEDogWalkCoreDataTests */,
+				"SEPlatform::SEPlatform" /* SEPlatform */,
+				"SEPlatform::SwiftPMPackageDescription" /* SEPlatformPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_39 /* DogWalkCoreData.swift in Sources */,
+				OBJ_40 /* DogWalkCoreDataStore.swift in Sources */,
+				OBJ_42 /* Dog+CoreDataClass.swift in Sources */,
+				OBJ_43 /* Dog+CoreDataProperties.swift in Sources */,
+				OBJ_44 /* Walk+CoreDataClass.swift in Sources */,
+				OBJ_45 /* Walk+CoreDataProperties.swift in Sources */,
+				4CB5A1BE25DC91E6008B324C /* DogWalkModelLoaderXcode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_55 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_66 /* DogWalkCoreDataTests.swift in Sources */,
+				OBJ_67 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_77 /* FatalErrorUtils.swift in Sources */,
+				OBJ_78 /* Result+Extensions.swift in Sources */,
+				OBJ_79 /* SinglePublisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_86 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SEPlatform::SEPlatform" /* SEPlatform */;
+			targetProxy = 4CB5A19425DC918D008B324C /* PBXContainerItemProxy */;
+		};
+		OBJ_60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SEDogWalkCoreData::SEDogWalkCoreDataTests" /* SEDogWalkCoreDataTests */;
+			targetProxy = 4CB5A1A925DC918D008B324C /* PBXContainerItemProxy */;
+		};
+		OBJ_71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SEDogWalkCoreData::SEDogWalkCoreData" /* SEDogWalkCoreData */;
+			targetProxy = 4CB5A1A125DC918D008B324C /* PBXContainerItemProxy */;
+		};
+		OBJ_72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SEPlatform::SEPlatform" /* SEPlatform */;
+			targetProxy = 4CB5A1A225DC918D008B324C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SEDogWalkCoreData.xcodeproj/SEDogWalkCoreData_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SEDogWalkCoreData;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SEDogWalkCoreData;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SEDogWalkCoreData.xcodeproj/SEDogWalkCoreData_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SEDogWalkCoreData;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SEDogWalkCoreData;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode_12.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode_12.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SEDogWalkCoreData.xcodeproj/SEDogWalkCoreDataTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SEDogWalkCoreDataTests;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SEDogWalkCoreData.xcodeproj/SEDogWalkCoreDataTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SEDogWalkCoreDataTests;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SEDogWalkCoreData.xcodeproj/SEPlatform_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SEPlatform;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SEPlatform;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SEDogWalkCoreData.xcodeproj/SEPlatform_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SEPlatform;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SEPlatform;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode_12.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode_12.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "SEDogWalkCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_35 /* Build configuration list for PBXNativeTarget "SEDogWalkCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_36 /* Debug */,
+				OBJ_37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_51 /* Build configuration list for PBXNativeTarget "SEDogWalkCoreDataPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_52 /* Debug */,
+				OBJ_53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_57 /* Build configuration list for PBXAggregateTarget "SEDogWalkCoreDataPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_58 /* Debug */,
+				OBJ_59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_62 /* Build configuration list for PBXNativeTarget "SEDogWalkCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_63 /* Debug */,
+				OBJ_64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_73 /* Build configuration list for PBXNativeTarget "SEPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_74 /* Debug */,
+				OBJ_75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_82 /* Build configuration list for PBXNativeTarget "SEPlatformPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_83 /* Debug */,
+				OBJ_84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

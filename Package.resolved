@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SEPlatform",
+        "repositoryURL": "git@github.com:215eight/SEPlatform.git",
+        "state": {
+          "branch": "main",
+          "revision": "623e7527fc3cf465a304c24a1d75b8bc85da28fc",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
